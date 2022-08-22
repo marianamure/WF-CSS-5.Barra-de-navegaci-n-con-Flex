@@ -1,0 +1,35 @@
+.nav{
+    background-color: rgb(63, 61, 61);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin:auto;
+    width: 1200px;
+    height:70px;
+    padding-left:12px;
+}
+.nav-title{
+    color: white;
+}
+.nav-links{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+    margin-left:650px;
+}
+.active {
+    color:white
+}
+.btn{
+    color:white;
+    background-color: rgb(41, 91, 138);
+    box-shadow: 5px 5px black;
+}
+a {
+    text-decoration:none;
+    color: grey;
+}
+li{
+    display: inline-block
+}
